@@ -1,0 +1,14 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Mingrownake/layout-designer-project-58/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Mingrownake/layout-designer-project-58/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mingrow",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.24.6"
+  }
+}
