@@ -51,6 +51,7 @@ body {
 }
 
 section {
+  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -376,7 +377,7 @@ button.btn::before {
   width: 919px;
   height: 517px;
   bottom: -547px;
-  left: 90px;
+  left: 485px;
 }
 
 .shadow-img {
