@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 
-* {
+:root {
   --white-color: #fff;
   --white-translucent-color: #d7ccc0;
   --light-color: #f5f4f0;
@@ -26,6 +26,9 @@
   --dark-translucent-color: #908d8b;
   --brown-color: #b09a81;
   --blue-color: #1085c5;
+}
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -37,8 +40,7 @@ html {
   line-height: 1.6em;
   color: var(--dark-color);
   box-sizing: border-box;
-  width: 1920px;
-  height: 100vh;
+  width: 1440px;
 }
 
 .border-box {
@@ -46,12 +48,10 @@ html {
 }
 
 body {
-  width: 1920px;
   overflow-x: hidden;
 }
 
 section {
-  width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -377,7 +377,7 @@ button.btn::before {
   width: 919px;
   height: 517px;
   bottom: -547px;
-  left: 485px;
+  left: 260px;
 }
 
 .shadow-img {
