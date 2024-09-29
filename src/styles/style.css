@@ -26,6 +26,7 @@
   --dark-translucent-color: #908d8b;
   --brown-color: #b09a81;
   --blue-color: #1085c5;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -38,11 +39,15 @@ html {
   box-sizing: border-box;
 }
 
+.border-box {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1920px;
-  overflow-x: hidden;
-  width: 100vw;
-  height: 100vh;
+  /***overflow-x: hidden;***/
+  width: 100%;
+  height: 100%;
 }
 
 section {
@@ -177,8 +182,8 @@ h3 {
   padding-top: 200px;
 }
 
-.p-55 {
-  padding: 55px;
+.p-40 {
+  padding: 40px;
 }
 
 .p-15 {
@@ -201,6 +206,10 @@ h3 {
 
 .w-70 {
   width: 70px;
+}
+
+.w-max-100 {
+  width: 100%;
 }
 
 .pos-relative {
