@@ -9,6 +9,8 @@
   "author": "mingrow",
   "license": "ISC",
   "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint-config-standard": "^36.0.1",
     "surge": "^0.24.6"
   }
 }

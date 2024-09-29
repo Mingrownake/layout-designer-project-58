@@ -39,6 +39,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   width: 100vw;
   height: 100vh;
 }
@@ -52,6 +53,12 @@ section {
 
 a {
   text-decoration: none;
+}
+
+a:link, 
+a:visited,
+a:hover {
+  color: var(--dark-color);
 }
 
 h1,
@@ -77,12 +84,32 @@ h3 {
   font-size: 34px;
 }
 
+.fs-52 {
+  font-size: 52px;
+}
+
 .mb-185 {
   margin-bottom: 185px;
 }
 
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-367 {
+  margin-bottom: 367px;
+}
+
+.pt-167 {
+  padding-top: 167px;
 }
 
 .pos-relative {
@@ -119,6 +146,14 @@ h3 {
   background-color: var(--light-color);
 }
 
+.bgr-white {
+  background-color: var(--white-color);
+}
+
+.bgr-dark-color {
+  background-color: var(--basic-dark-color);
+}
+
 .color-text-orange {
   color: var(--basic-color);
 }
@@ -131,8 +166,16 @@ h3 {
   font-weight: bold;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .flex-item {
@@ -144,17 +187,24 @@ h3 {
   gap: 30px;
 }
 
+.gap-h30-v20 {
+  gap: 20px 30px;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-column {
   flex-direction: column;
-  
 }
 
 .align-items-start {
   align-items: start;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .btn {
@@ -163,4 +213,23 @@ h3 {
 
 .btn-orange {
   background-color: var(--basic-color);
+}
+
+.prev-img {
+  position: absolute;
+  width: 919px;
+  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  bottom: -547px;
+  left: 90px;
+}
+
+.title-card {
+  flex: 0 0 350px;
+}
+
+.card {
+  padding: 24px;
+  flex: 0 0 350px;
+  box-sizing: border-box;
 }
