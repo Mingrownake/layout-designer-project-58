@@ -209,8 +209,20 @@ h3 {
   color: var(--basic-color);
 }
 
+.color-text-brown {
+  color: var(--brown-color);
+}
+
 .color-text-white {
   color: var(--white-color);
+}
+
+.color-text-translucent-dark {
+  color: var(--dark-translucent-color);
+}
+
+.color-text-translucent-white {
+  color: var(--white-translucent-color);
 }
 
 .font-bold {
