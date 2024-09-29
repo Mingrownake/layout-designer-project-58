@@ -237,8 +237,9 @@ h3 {
 .main-img {
   position: absolute;
   height: 525px;
+  width: 950px;
   top: -45px;
-  right: -270px;
+  right: -170px;
 }
 
 .bgr-symb {
