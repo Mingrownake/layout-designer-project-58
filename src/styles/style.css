@@ -55,10 +55,25 @@ a {
   text-decoration: none;
 }
 
+button {
+  margin: 0;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 a:link, 
 a:visited,
 a:hover {
-  color: var(--dark-color);
+  color: none;
 }
 
 h1,
@@ -117,8 +132,20 @@ h3 {
   font-size: 14px;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
 .mb-185 {
   margin-bottom: 185px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .mb-40 {
@@ -149,6 +176,14 @@ h3 {
   padding-top: 167px;
 }
 
+.p-55 {
+  padding: 55px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
 .pg-5 {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -157,6 +192,14 @@ h3 {
 .pv-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.h-50 {
+  height: 50px;
+}
+
+.w-70 {
+  width: 70px;
 }
 
 .pos-relative {
@@ -207,6 +250,10 @@ h3 {
 
 .color-text-orange {
   color: var(--basic-color);
+}
+
+.color-text-dark {
+  color: var(--basic-dark-color);
 }
 
 .color-text-brown {
@@ -262,6 +309,10 @@ h3 {
   flex-direction: column;
 }
 
+.flex-1 {
+  flex: 1;
+}
+
 .align-items-start {
   align-items: start;
 }
@@ -272,6 +323,18 @@ h3 {
 
 .justify-content-center {
   justify-content: center;
+}
+
+button.btn::before {
+  content: '';
+  position: absolute;
+  background-image: url(../img/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 30%;
+  left: 35%;
+  height: 20px;
+  width: 20px;
 }
 
 .btn {
@@ -302,4 +365,8 @@ h3 {
   padding: 24px;
   flex: 0 0 350px;
   box-sizing: border-box;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
