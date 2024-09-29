@@ -12,12 +12,63 @@
 }
 
 @font-face {
-  font-family: Neucha;
-  src: url("../fonts/Neucha/Neucha-Regular.ttf");
+  font-family: 'Open Sans';
+  src: url(../font/OpenSans-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+:root {
+  --white-color: #fff;
+  --white-translucent-color: #d7ccc0;
+  --light-color: #f5f4f0;
+  --basic-color: #fe8a02;
+  --basic-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --dark-translucent-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark-color);
+  box-sizing: border-box;
+  width: 1440px;
+}
+
+.border-box {
+  box-sizing: border-box;
 }
 
 body {
+  width: 1920px;
   overflow-x: hidden;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content {
+  width: 1110px;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
   margin: 0;
 }
 
@@ -499,7 +550,26 @@ input {
   background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  content: "";
+  top: 30%;
+  left: 35%;
+  height: 20px;
+  width: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+}
+
+.btn-orange {
+  background-color: var(--basic-color);
+}
+
+.prev-img {
+  position: absolute;
+  width: 919px;
+  height: 517px;
+  bottom: -547px;
+  left: 260px;
 }
 
 .form {
