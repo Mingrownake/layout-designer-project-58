@@ -183,8 +183,8 @@ h3 {
   margin-bottom: 350px;
 }
 
-.pt-200 {
-  padding-top: 200px;
+.pt-300 {
+  padding-top: 300px;
 }
 
 .p-40 {
@@ -193,6 +193,10 @@ h3 {
 
 .p-15 {
   padding: 15px;
+}
+
+.pb-0 {
+  padding: 0;
 }
 
 .pg-5 {
